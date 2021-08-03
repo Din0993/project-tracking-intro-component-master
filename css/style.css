@@ -276,6 +276,7 @@ body {
         margin-left: -10rem; } }
   .right-side__nav-menu {
     display: none;
+    background-color: transparent;
     height: 1.65rem;
     width: 3.5rem;
     outline: none;
@@ -298,7 +299,7 @@ body {
   list-style: none;
   font-size: 1.6rem;
   font-family: "Barlow Condensed", sans-serif;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 700;
   align-items: center;
   justify-content: space-around;
@@ -348,7 +349,8 @@ body {
   height: 3rem;
   width: 3rem;
   background-repeat: no-repeat;
-  transform: scale(1.2); }
+  transform: scale(1.2);
+  background-color: transparent; }
 
 .open-modal {
   position: absolute;
@@ -372,7 +374,7 @@ body {
     list-style: none;
     font-size: 2rem;
     font-family: "Barlow Condensed", sans-serif;
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 600;
     align-items: center;
     justify-content: space-between; }
