@@ -270,7 +270,7 @@
     display: none;
     @media only screen and (max-width: 660px) {
       display: inline-block;
-      margin-left: -9rem;
+      margin-left: -10rem;
     }
   }
   &__nav-menu {
@@ -282,7 +282,7 @@
     cursor: pointer;
     @media only screen and (max-width: 660px) {
       display: inline-block;
-      margin-right: -6rem;
+      margin-left: 65%;
       font-weight: 400;
     }
     @media only screen and (max-width: $mobile-width) {
@@ -308,7 +308,7 @@
     margin: 0 10%;
   }
   @media only screen and (max-width: 660px) {
-    margin: 0 5rem;
+    margin: 0;
   }
 
   &__link:link,
@@ -424,7 +424,7 @@
 }
 
 .line {
-  height: 0.05rem;
-  width: 85%;
+  height: 0.1rem;
+  width: 45rem;
   background-color: $color-grayish-blue;
 }
