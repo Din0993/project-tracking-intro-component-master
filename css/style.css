@@ -315,6 +315,8 @@ body {
     text-transform: uppercase;
     display: block;
     color: #242942; }
+  .list__link-gray:link, .list__link-gray:visited {
+    color: #a0a1ac; }
   .list__link:hover, .list__link:active {
     border-bottom: 1px solid #242942; }
   .list__link-gray:hover, .list__link-gray:active {
@@ -383,6 +385,8 @@ body {
       text-transform: uppercase;
       display: block;
       color: #242942; }
+    .open-modal__list__link-gray:link, .open-modal__list__link-gray:visited {
+      color: #a0a1ac; }
     .open-modal__list__link:hover, .open-modal__list__link:active {
       border-bottom: 1px solid #242942; }
     .open-modal__list__link-gray:hover, .open-modal__list__link-gray:active {

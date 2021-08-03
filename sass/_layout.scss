@@ -320,6 +320,11 @@
     color: $color-very-dark-blue;
   }
 
+  &__link-gray:link,
+  &__link-gray:visited {
+    color: $color-grayish-blue;
+  }
+
   &__link:hover,
   &__link:active {
     border-bottom: 1px solid $color-very-dark-blue;
@@ -406,6 +411,11 @@
       text-transform: uppercase;
       display: block;
       color: $color-very-dark-blue;
+    }
+
+    &__link-gray:link,
+    &__link-gray:visited {
+      color: $color-grayish-blue;
     }
 
     &__link:hover,
