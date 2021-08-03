@@ -1,0 +1,59 @@
+// Colors
+$color-primary: hsl(0, 100%, 68%);
+$color-very-dark-blue: hsl(230, 29%, 20%);
+$color-dark-grayish-blue: hsl(230, 11%, 40%);
+$color-grayish-blue: hsl(231, 7%, 65%);
+$color-light-grayish-blue: hsl(207, 33%, 95%);
+
+$font-barlow-condensed: "Barlow Condensed", sans-serif;
+$font-barlow: "Barlow", sans-serif;
+
+$mobile-width: 23.4375em;
+$desktop-width: 90em;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.25%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: $font-barlow;
+  @media only screen and (max-width: 1120px) {
+    font-size: 1.4rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -5rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+// Product
+// Features
+// Pricing
+// Login
+
+// New
+// Monograph Dashboard
+
+// Powerful insights into your team
+// Project planning and time tracking for agile teams
+
+// Schedule a demo
+// to see a live preview
